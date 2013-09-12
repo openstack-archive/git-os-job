@@ -46,7 +46,6 @@ def main():
     args = parser.parse_args()
 
     ref = args.ref
-    import os
     try:
         ref_hash = subprocess.check_output(
             ['git', 'show-ref', '-s', ref]
