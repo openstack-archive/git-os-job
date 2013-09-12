@@ -13,6 +13,8 @@ start with the message jenkins leaves on gerrit, and click through to
 the log files. Not all jenkins jobs are triggered by or related to a
 gerrit review, though (e.g, release tags). 
 
+.. _OpenStack: http://openstack.org/
+
 git-os-job makes it easy to find those logs by finding the hash of the
 commit and using it to build the right URL. It will then either print
 the URL or open a web browser directly.
@@ -35,3 +37,11 @@ Look at the jobs related to a specific commit by tag, such as after
 submitting a release tag::
 
   $ git os-job version.tag
+
+Contributing and Reporting Bugs
+-------------------------------
+
+Please use the bug tracker on the github repository to report
+problems. Patches for improvements are welcome, too.
+
+https://github.com/dhellmann/git-os-job
