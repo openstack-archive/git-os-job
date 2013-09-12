@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Copyright (c) 2013 New Dream Network, LLC (DreamHost)
+# Copyright (c) 2013 Doug Hellmann
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,5 +17,4 @@
 import setuptools
 
 
-setuptools.setup(setup_requires=['pbr>=0.5.21,<1.0'],
-                 pbr=True)
+setuptools.setup(setup_requires=['pbr'], pbr=True)
