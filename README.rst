@@ -28,6 +28,8 @@ already.::
 
   $ git os-job
 
+.. _git-review: https://pypi.python.org/pypi/git-review
+
 Look at the jobs related to the previous commit, such as when a
 development branch has a series of independent changes in it::
 
