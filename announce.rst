@@ -1,6 +1,6 @@
-================
- git-os-job 1.0
-================
+==================
+ git-os-job 1.0.1
+==================
 
 .. tags:: git release python openstack
 
@@ -23,7 +23,8 @@ the URL or open a web browser directly.
 What's New?
 ===========
 
-This is the first public release.
+- Fixes an issue running under Python 3, contributed by Alejandro
+  Cabrera.
 
 Installing
 ==========
