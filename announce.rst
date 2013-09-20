@@ -4,7 +4,7 @@
 
 .. tags:: git release python openstack
 
-What is git-os-tag?
+What is git-os-job?
 ===================
 
 The OpenStack_ project stores the logs for all of the test jobs
