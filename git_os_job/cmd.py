@@ -49,13 +49,13 @@ def main():
     try:
         ref_hash = subprocess.check_output(
             ['git', 'show-ref', '-s', ref]
-        ).rstrip()
+        ).decode('utf-8').rstrip()
     except subprocess.CalledProcessError:
         # Maybe they gave us a commit id
         try:
             ref_hash = subprocess.check_output(
                 ['git', 'show', '--pretty=format:%H', '--quiet', ref]
-            ).rstrip()
+            ).decode('utf-8').rstrip()
         except subprocess.CalledProcessError:
             sys.stderr.write('Could not get hash for ref %r\n' % ref)
             return 1
