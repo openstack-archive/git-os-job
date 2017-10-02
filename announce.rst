@@ -1,5 +1,5 @@
 ==================
- git-os-job 1.0.1
+ git-os-job 1.1.0
 ==================
 
 .. tags:: git release python openstack
@@ -23,8 +23,9 @@ the URL or open a web browser directly.
 What's New?
 ===========
 
-- Fixes an issue running under Python 3, contributed by Alejandro
-  Cabrera.
+- add --reverse option to go from log URL to review URL
+- improve python 3 support
+- add -u alias for --url option
 
 Installing
 ==========
