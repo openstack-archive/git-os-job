@@ -32,7 +32,7 @@ def main():
         help='base URL, defaults to %(default)s',
     )
     parser.add_argument(
-        '--url',
+        '-u', '--url',
         action='store_true',
         default=False,
         help='show the URL but do not open it',
