@@ -95,8 +95,7 @@ def main():
                 sys.stderr.write('Could not get hash for ref %r\n' % ref)
                 return 1
 
-        ref_hash_str = ref_hash.decode('utf8')
-        url = '%s/%s/%s/' % (args.base, ref_hash_str[:2], ref_hash_str)
+        url = '%s/%s/%s/' % (args.base, ref_hash[:2], ref_hash)
 
     if args.url:
         print(url)
