@@ -43,7 +43,10 @@ submitting a release tag::
 Contributing and Reporting Bugs
 -------------------------------
 
-Please use the bug tracker on the github repository to report
-problems. Patches for improvements are welcome, too.
+Please use the storyboard tracker to report problems.
 
-https://github.com/dhellmann/git-os-job
+https://storyboard.openstack.org/#!/project/1099
+
+Patches for improvements are welcome, too, via gerrit:
+
+https://git.openstack.org/openstack/git-os-job
