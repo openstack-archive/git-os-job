@@ -1,0 +1,8 @@
+Code-Review+2: Doug Hellmann <doug@doughellmann.com>
+Workflow+1: Doug Hellmann <doug@doughellmann.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Fri, 14 Dec 2018 15:33:14 +0000
+Reviewed-on: https://review.openstack.org/625278
+Project: openstack/git-os-job
+Branch: refs/heads/master
